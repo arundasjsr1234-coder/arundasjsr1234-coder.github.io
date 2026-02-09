@@ -67,7 +67,7 @@ const portfolioData: PortfolioData = {
   name: "Arunangshu Das",
   title: "Game Developer",
   tagline: "Building digital experiences, one pixel (and bug) at a time.",
-  about: "I am a game developer with a passion for building scalable solutions. My work ranges from high-performance web applications to experimental interactive tools.",
+  about: "I am a game developer with a passion for building scalable solutions. I worked in 2D and 3D games in unity.",
   email: "arundas.jsr1234@gmail.com",
   socials: {
     github: "https://github.com/arundasjsr1234-coder",
