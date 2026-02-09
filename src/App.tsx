@@ -65,38 +65,38 @@ interface PortfolioData {
 // --- Data & Configuration ---
 const portfolioData: PortfolioData = {
   name: "Arunangshu Das",
-  title: "Full Stack Developer",
+  title: "Game Developer",
   tagline: "Building digital experiences, one pixel (and bug) at a time.",
-  about: "I am a software engineer  and a game developer with a passion for building scalable solutions. My work ranges from high-performance web applications to experimental interactive tools.",
+  about: "I am a game developer with a passion for building scalable solutions. My work ranges from high-performance web applications to experimental interactive tools.",
   email: "arundas.jsr1234@gmail.com",
   socials: {
-    github: "https://github.com",
+    github: "https://github.com/arundasjsr1234-coder",
     linkedin: "https://www.linkedin.com/in/arunangshu-das-7a74322b9/",
   },
   skills: [
     "JavaScript (ES6+)", "React", "Node.js", "TypeScript", 
     "Next.js", "PostgreSQL", "Tailwind CSS", "Git",
-    "Python",
+    "Python", "Java", "c#" 
   ],
   experience: [
     {
-      company: "",
-      role: "Web Developer",
-      period: "",
-      description: "Skilled in web Developing."
-    },
-    {
-      company: "",
-      role: "Software Developer",
-      period: "",
-      description: "Developed core architecture for internal tools. Managed cross-platform deployment pipelines for web and mobile applications."
-    },
-    {
       company: "GauravGo Games pvt",
-      role: "Unity Game Developer",
-      period: "",
+      role: "Trainee",
+      period: "5 Months",
       description: "Worked and developed 2D and 3D games in unity"
-    }
+    },
+    {
+      company: "Jamekka Computer Services",
+      role: "Intern",
+      period: "1 Month",
+      description: "Backend developer(Java ,servlet ,jsp)"
+    },
+    // {
+    //   company: "",
+    //   role: "",
+    //   period: "",
+    //   description: "Worked and developed 2D and 3D games in unity"
+    // }
   ],
   education: [
     {
@@ -108,93 +108,93 @@ const portfolioData: PortfolioData = {
   projects: [
     {
       id: "p1",
-      title: "Nova Dashboard",
-      category: "SaaS Application",
-      tech: "React / Node.js",
-      description: "A comprehensive analytics dashboard for tracking real-time user metrics.",
-      details: "Nova Dashboard is a full-stack analytics solution designed to process over 1 million events per day. It features real-time data visualization using WebSockets, customizable widget layouts, and role-based access control. The backend is built with Node.js microservices handling data aggregation from multiple sources.",
+      title: "Pixel Fall",
+      category: "Game Application",
+      tech: "unity c#",
+      description: "An arcade survival game where you balance on a pillar while dodging incoming projectiles.",
+      details: "Implemented a horizontal movement algorithm that calculates the ball's position relative to the pillar's edges to ensure smooth, rhythmic side-to-side motion.",
       link: "#",
-      downloadUrl: "#",
+      downloadUrl: "https://drive.google.com/file/d/1lYo6hM0WrLeqrn5UMozbNpd8cwgzmaSf/view?usp=drive_link",
       screenshots: [
-        "https://placehold.co/800x450/1e293b/10b981?text=Dashboard+Main+View",
-        "https://placehold.co/800x450/1e293b/10b981?text=Analytics+Graph",
-        "https://placehold.co/800x450/1e293b/10b981?text=User+Settings"
+        "/images/Image1.jpeg",
+        "/images/Image2.jpeg",
+        "/images/Image3.jpeg"
       ]
     },
     {
       id: "p2",
-      title: "Algo Visualizer",
-      category: "Educational Tool",
-      tech: "TypeScript / HTML5",
-      description: "An interactive tool for visualizing sorting and pathfinding algorithms.",
-      details: "This project serves as an educational aid for computer science students. It visualizes complex algorithms like Dijkstra's, A*, QuickSort, and MergeSort in real-time. The application allows users to control speed, input size, and step through execution to understand the underlying logic.",
+      title: "FPS Game",
+      category: "FPS Survival",
+      tech: "Unity c#",
+      description: "A fast-paced arena FPS focusing on movement mechanics and precision aiming in a futuristic setting.",
+      details: "This project showcases a custom AI system built using Finite State Machines (FSM), allowing enemies to patrol, detect, chase, and attack the player dynamically. Key technical features include raycast-based shooting mechanics, object pooling for ammo and particle optimization, and a responsive health system with UI integration.",
       link: "#",
-      downloadUrl: "#",
+      downloadUrl: "https://drive.google.com/drive/folders/1_CxgjgDT1tM-nurDtRg9q0V6zLAzc7GQ?usp=sharing",
       screenshots: [
-        "https://placehold.co/800x450/1e293b/3b82f6?text=Sorting+Algorithm",
-        "https://placehold.co/800x450/1e293b/3b82f6?text=Pathfinding+Grid",
-        "https://placehold.co/800x450/1e293b/3b82f6?text=Code+Explanation"
+        "/images/shooter1.png",
+        "/images/shooter2.png",
+        "/images/shooter3.png"
       ]
     },
-    {
-      id: "p3",
-      title: "Cosmic Drifter",
-      category: "Interactive Simulation",
-      tech: "Unity / C#",
-      description: "A physics-based space simulation with procedural generation.",
-      details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
-      link: "#",
-      downloadUrl: "#",
-      screenshots: [
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
-      ]
-    },
-    {
-      id: "p4",
-      title: "Cosmic Drifter",
-      category: "Interactive Simulation",
-      tech: "Unity / C#",
-      description: "A physics-based space simulation with procedural generation.",
-      details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
-      link: "#",
-      downloadUrl: "#",
-      screenshots: [
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
-      ]
-    },
-    {
-      id: "p5",
-      title: "Cosmic Drifter",
-      category: "Interactive Simulation",
-      tech: "Unity / C#",
-      description: "A physics-based space simulation with procedural generation.",
-      details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
-      link: "#",
-      downloadUrl: "#",
-      screenshots: [
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
-      ]
-    },{
-      id: "p6",
-      title: "Cosmic Drifter",
-      category: "Interactive Simulation",
-      tech: "Unity / C#",
-      description: "A physics-based space simulation with procedural generation.",
-      details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
-      link: "#",
-      downloadUrl: "#",
-      screenshots: [
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
-        "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
-      ]
-    }
+    // {
+    //   id: "p3",
+    //   title: "Cosmic Drifter",
+    //   category: "Interactive Simulation",
+    //   tech: "Unity / C#",
+    //   description: "A physics-based space simulation with procedural generation.",
+    //   details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
+    //   link: "#",
+    //   downloadUrl: "#",
+    //   screenshots: [
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
+    //   ]
+    // },
+    // {
+    //   id: "p4",
+    //   title: "Cosmic Drifter",
+    //   category: "Interactive Simulation",
+    //   tech: "Unity / C#",
+    //   description: "A physics-based space simulation with procedural generation.",
+    //   details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
+    //   link: "#",
+    //   downloadUrl: "#",
+    //   screenshots: [
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
+    //   ]
+    // },
+    // {
+    //   id: "p5",
+    //   title: "Cosmic Drifter",
+    //   category: "Interactive Simulation",
+    //   tech: "Unity / C#",
+    //   description: "A physics-based space simulation with procedural generation.",
+    //   details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
+    //   link: "#",
+    //   downloadUrl: "#",
+    //   screenshots: [
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
+    //   ]
+    // },{
+    //   id: "p6",
+    //   title: "Cosmic Drifter",
+    //   category: "Interactive Simulation",
+    //   tech: "Unity / C#",
+    //   description: "A physics-based space simulation with procedural generation.",
+    //   details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
+    //   link: "#",
+    //   downloadUrl: "#",
+    //   screenshots: [
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
+    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
+    //   ]
+    // }
   ]
 };
 
@@ -563,7 +563,7 @@ export default function App() {
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
             Arunangshu Das <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">
-              Software Engineer
+              Game Developer
             </span>
           </h1>
           <p className="text-lg text-slate-400 max-w-lg">
@@ -662,7 +662,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="py-12 border-t border-slate-800 text-center text-slate-500 text-sm">
-        <p>&copy; {new Date().getFullYear()} {portfolioData.name}. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} {portfolioData.name}. //All rights reserved.</p>
         <p className="mt-2 flex items-center justify-center gap-2">
           {/* Built with <Code2 size={14} /> and React + Tailwind */}
         </p>
