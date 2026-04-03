@@ -65,32 +65,33 @@ interface PortfolioData {
 // --- Data & Configuration ---
 const portfolioData: PortfolioData = {
   name: "Arunangshu Das",
-  title: "Game Developer",
-  tagline: "Building digital experiences, one pixel (and bug) at a time.",
-  about: "I am a game developer with a passion for building scalable solutions. I worked in 2D and 3D games in unity.",
+  title: "Java,Full Stack and software Developer",
+  tagline: "Building J2EE application development, full stack web development, Game development C# ",
+  about: "I am Software developer with a passion for building scalable solutions.",
   email: "arundas.jsr1234@gmail.com",
   socials: {
     github: "https://github.com/arundasjsr1234-coder",
     linkedin: "https://www.linkedin.com/in/arunangshu-das-7a74322b9/",
   },
   skills: [
-    "JavaScript (ES6+)", "React", "Node.js", "TypeScript", 
-    "Next.js", "PostgreSQL", "Tailwind CSS", "Git",
-    "Python", "Java", "c#" 
+    "JavaScript ", "React", "Node.js", "TypeScript", 
+    "Next.js", "MySQL", "Tailwind CSS", "Git",
+    "Python", "Java", "C#" 
   ],
   experience: [
+     {
+      company: "Jamekka computer services pvt Ltd",
+      role: "Intern",
+      period: "1 Month",
+      description: "Builder information system. By use of java, jsp, servlet and MySQL "
+    },
     {
       company: "GauravGo Games pvt",
       role: "Trainee",
       period: "5 Months",
       description: "Worked and developed 2D and 3D games in unity"
     },
-    {
-      company: "Jamekka Computer Services",
-      role: "Intern",
-      period: "1 Month",
-      description: "Backend developer(Java ,servlet ,jsp)"
-    },
+   
     // {
     //   company: "",
     //   role: "",
@@ -123,8 +124,8 @@ const portfolioData: PortfolioData = {
     },
     {
       id: "p2",
-      title: "FPS Game",
-      category: "FPS Survival",
+      title: "Aim Arena",
+      category: "Game application",
       tech: "Unity c#",
       description: "A fast-paced arena FPS focusing on movement mechanics and precision aiming in a futuristic setting.",
       details: "This project showcases a custom AI system built using Finite State Machines (FSM), allowing enemies to patrol, detect, chase, and attack the player dynamically. Key technical features include raycast-based shooting mechanics, object pooling for ammo and particle optimization, and a responsive health system with UI integration.",
@@ -136,36 +137,36 @@ const portfolioData: PortfolioData = {
         "/images/shooter3.png"
       ]
     },
-    // {
-    //   id: "p3",
-    //   title: "Cosmic Drifter",
-    //   category: "Interactive Simulation",
-    //   tech: "Unity / C#",
-    //   description: "A physics-based space simulation with procedural generation.",
-    //   details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
-    //   link: "#",
-    //   downloadUrl: "#",
-    //   screenshots: [
-    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
-    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
-    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
-    //   ]
-    // },
-    // {
-    //   id: "p4",
-    //   title: "Cosmic Drifter",
-    //   category: "Interactive Simulation",
-    //   tech: "Unity / C#",
-    //   description: "A physics-based space simulation with procedural generation.",
-    //   details: "Cosmic Drifter demonstrates advanced physics calculations and procedural content generation. While presented as a simulation, it utilizes a custom rendering pipeline to optimize particle effects on low-end devices. Features include Newtonian physics for flight controls and a seed-based universe generation system.",
-    //   link: "#",
-    //   downloadUrl: "#",
-    //   screenshots: [
-    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
-    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
-    //     "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
-    //   ]
-    // },
+    {
+      id: "p3",
+      title: "Builder Customer information system",
+      category: "CRM",
+      tech: "JavaServlet,MySQL,JSP,javaBeans",
+      description: "I worked on this project for customer customer registration module.",
+      details: " This project saves the customer information and payment details in the database.",
+      link: "#",
+      downloadUrl: "#",
+      screenshots: [
+        "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
+        "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
+        "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
+      ]
+    },
+    {
+      id: "p4",
+      title: "Digital Farm Management Portal ",
+      category: "Software",
+      tech: "HTML,CSS.PYTHON",
+      description: "Biosecurity is a cornerstone of animal health management, particularly in the pig and poultry sectors.",
+      details: ".",
+      link: "#",
+      downloadUrl: "#",
+      screenshots: [
+        "https://placehold.co/800x450/1e293b/8b5cf6?text=Space+Exploration",
+        "https://placehold.co/800x450/1e293b/8b5cf6?text=Ship+Customization",
+        "https://placehold.co/800x450/1e293b/8b5cf6?text=Procedural+Planet"
+      ]
+    },
     // {
     //   id: "p5",
     //   title: "Cosmic Drifter",
@@ -413,7 +414,7 @@ const ProjectDetailsPage = ({ project, onBack }: ProjectDetailsPageProps) => {
                       Download Build
                     </a>
                     <p className="text-center text-xs text-slate-500 mt-2 font-mono">
-                      Latest version: v1.0.0
+                     
                     </p>
                   </div>
                 )}
@@ -563,7 +564,7 @@ export default function App() {
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
             Arunangshu Das <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">
-              Game Developer
+              Java, Full Stack and Software developer
             </span>
           </h1>
           <p className="text-lg text-slate-400 max-w-lg">
@@ -662,7 +663,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="py-12 border-t border-slate-800 text-center text-slate-500 text-sm">
-        <p>&copy; {new Date().getFullYear()} {portfolioData.name}. //All rights reserved.</p>
+        {/* <p>&copy; {new Date().getFullYear()} {portfolioData.name}. All rights reserved.</p> */}
         <p className="mt-2 flex items-center justify-center gap-2">
           {/* Built with <Code2 size={14} /> and React + Tailwind */}
         </p>
